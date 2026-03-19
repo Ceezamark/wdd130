@@ -18,7 +18,7 @@ header, footer {
 
 main {
   width: 400px;
-  marging: 0 auto;
+  margin: 0 auto;
 }
 
 h1 {
@@ -40,7 +40,7 @@ section {
   margin: 20px 0;
   border: 1px solid rgb(0 0 0 / 10%);
   padding: 10px;
-  background-color: abe;
+  background-color: #abe;
   font-size: .9rem;
 }
 
