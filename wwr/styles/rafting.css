@@ -26,13 +26,20 @@ footer {
 }
 
 header {
-    background-color: #d8c6f2;
+    background-color: var(--accent2-color);
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header nav img {
+    margin: 10px 40px;
+    padding: 10px;
 }
 
 nav ul {
@@ -55,8 +62,13 @@ nav a {
     display: block;
     padding: 8px 16px;
     text-decoration: none;
+    font-weight: bold;
     color: #000;
     background-color: #fff;
+}
+
+nav a:hover {
+    background-color: #eee;
 }
 
 h1,
@@ -115,10 +127,19 @@ h2 {
     color: #fff;
 }
 
+section div {
+    display: flex;
+}
+
+section div img {
+    margin-top: 15px;
+}
+
 .adventure-gallery {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    margin-top: 20px;
 }
 
 .adventure-gallery figure {
@@ -137,6 +158,9 @@ h2 {
 
 footer {
     border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer .socialmedia {
