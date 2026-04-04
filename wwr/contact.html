@@ -10,7 +10,7 @@
 
     <!-- Meta description -->
     <meta name="description"
-      content="Get in touch with our whitewater rafting team. Contact us for bookings, questions, or adventure planning, we're here to help you plan your next river experience.">
+      content="Get in touch with our whitewater rafting team. Contact us for bookings, questions, or adventure planning. We're here to help you plan your next river experience.">
 
     <!-- Meta author -->
     <meta name="author" content="Chineme Ndu-Okoronkwo">
@@ -55,32 +55,46 @@
                 </iframe>
             </div>
 
-            <!-- Contact Form -->
+            <!-- Contact Form-->
             <form class="contact-form">
+                <!-- Name -->
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
 
+                <!-- Email -->
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
 
+                <!-- Radio Buttons -->
                 <p>Message Purpose</p>
-                <label><input type="radio" name="purpose" value="general" required> General
-                    Inquiry</label>
-                <label><input type="radio" name="purpose" value="reservation"> Reservation
-                    Question</label>
-                <label><input type="radio" name="purpose" value="suggestion"> Website
-                    Suggestion</label>
 
+                <label for="general">
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    General Inquiry
+                </label>
+
+                <label for="reservation">
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    Reservation Question
+                </label>
+
+                <label for="suggestion">
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    Website Suggestion
+                </label>
+
+                <!-- Message -->
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="4" , placeholder="Type here"
-                  required></textarea>
+                <textarea id="message" name="message" required></textarea>
 
-                <label class="checkbox">
-                    <input type="checkbox" name="subscribe">
+                <!-- Checkbox -->
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe">
                     Please subscribe me to the monthly newsletter
                 </label>
 
-                <button type="submit">Get in Touch!</button>
+                <!-- Submit -->
+                <button type="submit">Send Your Message</button>
             </form>
         </div>
 
