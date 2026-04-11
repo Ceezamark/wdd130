@@ -255,3 +255,102 @@ footer .socialmedia img {
 .socialmedia a {
     text-decoration: none;
 }
+
+.newsletter {
+    background-color: var(--accent1-color);
+    color: #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 30px 0;
+}
+
+.newsletter h2 {
+    font-size: 2rem;
+    background-color: var(--accent1-color);
+
+}
+
+/* Form layout */
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* Labels */
+.newsletter label {
+    font-size: 1rem;
+}
+
+/* Inputs */
+.newsletter input {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1rem;
+    width: 200px;
+}
+
+/* Button */
+.newsletter button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #00a8e8;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Button hover effect */
+.newsletter button:hover {
+    background-color: #0077b6;
+}
+
+.newsletter,
+.cta {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.btn {
+    background-color: #0077aa;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.grid-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 2rem;
+}
+
+.trip-grid img {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
